@@ -1,16 +1,57 @@
-# Pipelines
+---
+background: ./img/pipeline.jpg
+---
 
-Philippe Vlérick - philippe.vlerick@worldline.com
+# Pipelines Workshop
+
+## Philippe Vlérick - philippe.vlerick@worldline.com
 
 ---
 
-# Pourquoi un _pipeline_?
+# C'est quoi une _pipepine_: CI/CD
+
+- CI: _Continuous Integration_
+- CD: _Continuous Delivery_
+
+---
+
+## _Continuous Integration_
+
+Intégration constante du travail de l'équipe
+
+- build
+- tests
+- qualité
+- ...
+
+---
+
+## _Continuous Delivery_
+
+- déploiements constants
+
+---
+
+# Pourquoi une _pipeline_?
 
 - c'est du _code_
 - c'est répétable
-- c'est identique ?
+- c'est appliqué à tout changement, aussi insignifiant qu'il puisse paraitre
+- aucune intervention manuelle
+
+## => Réduction du risque
 
 ---
+
+# S'applique au code applicatif, mais pas que...
+
+- bases de données
+  - Liquibase
+  - DacPac
+- infrastructure
+  - Terraform
+
+--- 
 
 # Chez _Worldline_
 
@@ -29,20 +70,15 @@ Philippe Vlérick - philippe.vlerick@worldline.com
 
 ---
 
-## Exemples
+## Quelques Pipelines...
 
-![Pipeline dotnet](./img/pipeline-dotnet.png "Pipeline dotnet")
-
----
-
-## Exemples
-
-![Pipeline java](./img/pipeline-java.png "Pipeline java")
+- code applicatif
+- infrastructure
 
 ---
+layout: cover
+background: ./img/pipeline.jpg
+---
 
-## Exemples
-
-![Pipeline java](./img/pipeline-java-2.png "Pipeline java")
-
-
+# Workshop
+## https://gitlab.com/pvlerick/pipeline-demo
